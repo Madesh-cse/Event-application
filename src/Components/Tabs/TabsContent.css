@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Reem+Kufi+Fun:wght@400..700&display=swap');
+.Content-bg{
+    max-width: 100%;
+    background-image: linear-gradient(
+        to bottom right, rgba(223, 45, 239, 0.796), 
+        #09031A
+    ),  url('../../assets/eventbg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.Content{
+    max-width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.tabcontent-title{
+    text-align: center;
+}
+.tabcontent-title h1{
+    color:#fff;
+    font-size: 2rem;
+    font-family: "Reem Kufi Fun", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+}
+.tabcontent-title p{
+    font-size: 4rem;
+    font-family: "Reem Kufi Fun", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    color:#DF2DEF;
+}
+.Tabs{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    border:2px solid #DF2DEF;
+    padding: 10px;
+    margin: auto;
+    max-width: 50%;
+}
+.TabButton button{
+    background-color: transparent;
+    border:none;
+    outline: none;
+    margin-right: 50px;
+    color:#ffff ;
+    cursor: pointer;
+}
+.Show-Content1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px 0 20px 0;
+}
+.hide{
+    display: none;
+}
+.Event img{
+    width:300px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.Event h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    color:#fff;
+    text-align: center;
+}
