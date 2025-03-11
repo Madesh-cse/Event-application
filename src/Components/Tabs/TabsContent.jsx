@@ -26,8 +26,8 @@ export default function TabContent(){
                         <p>EVENTS</p>
                     </div>
                     <menu className='Tabs'>
-                        <TabButton onselect={()=>clickhandle(1)}>Technical</TabButton>
-                        <TabButton onselect={()=>clickhandle(2)}>Non-Technical</TabButton>
+                        <TabButton isSelected = {selectedTopic === 1} onselect={()=>clickhandle(1)}>Technical</TabButton>
+                        <TabButton  isSelected = {selectedTopic === 2} onselect={()=>clickhandle(2)}>Non-Technical</TabButton>
                     </menu>
                     <div id='tab-content'>
                         <div className='TabFlex'>

@@ -32,7 +32,7 @@
 }
 .Tabs{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     list-style-type: none;
     border:2px solid #DF2DEF;
     padding: 10px;
@@ -43,9 +43,12 @@
     background-color: transparent;
     border:none;
     outline: none;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     color:#ffff ;
     cursor: pointer;
+}
+.active{
+    border:1px solid red;
 }
 .Show-Content1{
     display: flex;
@@ -68,4 +71,38 @@
     font-style: normal; 
     color:#fff;
     text-align: center;
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .Event{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px){
+    .Event{
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .tabcontent-title p{
+        font-size: 3rem;
+    }
+    .Event{
+        margin-bottom: 30px;
+    }
+    .Event img{
+        max-width: 250px;
+        margin: 0 0 5px 10px;
+
+    }
+    .Tabs{
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        border:2px solid #DF2DEF;
+        padding: 10px;
+        margin: auto;
+        max-width: 100%;
+    }
 }

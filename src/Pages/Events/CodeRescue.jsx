@@ -8,18 +8,18 @@ export default function CodeRescue(){
             <div className="Event-1-Container">
                 <div className='Event-Title'>
                     <h1>EVENTS <span>ZEIGEN'25</span></h1>
-                    <p>PRESENTATION BLITZ</p>
+                    <p>CODE RESCUE</p>
                 </div>
                 <div className='Event-Content'>
                    <div className='Event-Layout'>
                             <div className='Container-1'>
                                 <img src={Event1} alt="PaperPresentation" />
-                                <h2>PRESENTATION BLITZ</h2>
+                                <h2>CODE RESCUE</h2>
                                 <div className='Registration-Box'>
                                     <h3>REGISTRATION</h3>
                                     <p>Registration Fee :<span><BiRupee/></span>250 Per Head</p>
                                     <div className='RegisterBtn'>
-                                        <p><a href="">Register Now <FaArrowRightLong/></a></p>
+                                        <p><a href="https://forms.gle/mrUbzaNAQDudphBy5">Register Now <FaArrowRightLong/></a></p>
                                     </div>
                                 </div>
                             </div>
