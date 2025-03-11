@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Reem+Kufi+Fun:wght@400..700&display=swap');
 .Footer-info{
     max-width: 80%;
-    height:200px;
+    /* height:200px; */
     border:1px solid #c0c0c0;
     border-left: none;
     border-right: none;
@@ -10,7 +10,7 @@
 .Footer-Grid{
     display: grid;
     grid-template-columns: 2fr 2fr ;
-    margin-top: 30px;
+    margin: 30px 0 20px 0;
 }
 .Event-Logo{
     /* border:1px solid red; */
@@ -48,7 +48,6 @@
 .Events-Link{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 .Events-grid p{
     color:#DF2DEF;
@@ -87,4 +86,66 @@
 .DevelpedBy p{
     text-align: center;
     color:#DF2DEF;
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 640px) { 
+    .Footer-Grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
+    .Events-Link{
+        display: flex;
+        flex-direction: column;
+        /* border:1px solid red; */
+        text-align: center;
+    }
+
+    .Events-grid{
+        margin-top: 15px;
+    }
+    .Events-CO-ORDINATORS{
+        margin: 15px 0 15px 0;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 480px){
+    .Footer-Grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .Event-Logo{
+        /* border:1px solid red; */
+        display: flex;
+    }
+    .Event-Logo img{
+        width:130px;
+        height:auto;
+        margin-top: -15px;
+    }
+    .Events-Title h1{
+        font-size: 1.2rem;
+    }
+    .Events-Title p{
+        font-size: 1.5rem;
+        color:#ffffff;
+    }
+    .Events-Title span{
+        font-size: 1.5rem;
+    }
+    .Events-Link{
+        display: flex;
+        flex-direction: column;
+        /* border:1px solid red; */
+        text-align: center;
+    }
+    .Events-grid{
+        margin-top: 15px;
+    }
+    .Events-CO-ORDINATORS{
+        margin: 15px 0 15px 0;
+    }
+
 }

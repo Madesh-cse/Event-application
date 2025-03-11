@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scrollbar-color: #DF2DEF #09031A;
+      
 }
 
 .Contact{
@@ -38,6 +40,7 @@
     grid-template-columns: repeat(auto-fit,minmax(min(100%,300px),1fr));
     margin-top: 80px;
     margin-left: 20px;
+    /* border:1px solid red; */
 }
 .Contact-Email,.Contact-Address,.Contact-Helpline{
     width:300px;
@@ -73,4 +76,26 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px){
+    .Contact-ways{
+        margin-top: 50px;
+        padding-left: 70px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .Contact-Title h2{
+        font-size: 1rem;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .Contact-Title h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .Contact-ways{
+        margin-top: 50px;
+        margin-left: 5px;
+    }
 }

@@ -1,10 +1,10 @@
 import './TabsContent.css'
-export default function TabButton({children,onselect}){
+export default function TabButton({children,onselect,isSelected}){
 
     return(
         <>
         <div className="TabButton">
-            <li><button onClick={onselect}>{children}</button></li>
+            <li className={isSelected ? 'active':undefined}><button onClick={onselect}>{children}</button></li>
         </div>
         </>
     )
