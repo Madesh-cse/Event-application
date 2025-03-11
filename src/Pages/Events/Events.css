@@ -186,3 +186,52 @@ body{
     margin-left: 15px;
     color:#c0c0c0;
 }
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px){
+    .Container-2{
+        padding: 20px 0 0 20px;
+    }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .Container-2{
+        padding: 20px 0 0 20px;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+
+    .Event-Title span{
+        font-size: 1.8rem;
+        color:#DF2DEF;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+    .Event-Title p{
+        font-size: 2.3rem;
+    }
+    .Event-Content{
+        max-width: 100%;
+        margin: 30px 0 5px 5px;
+        height:700px;
+    }
+    .Container-1{
+        padding: 10px 0 10px 3px;
+    }
+    .Container-1 img{
+        max-width:250px;
+        height:auto;
+    }
+    .Registration-Box{
+        width:250px;
+        height:150px;
+        border-radius: 10px;
+        margin: 60px 0 0 5px;
+        padding: 10px;
+        font-size:15px;
+    }
+    .Container-2{
+        padding-top: 20px;
+    }
+}

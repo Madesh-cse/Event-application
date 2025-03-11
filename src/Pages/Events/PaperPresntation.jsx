@@ -20,7 +20,7 @@ export default function PaperPresentation(){
                                 <h3>REGISTRATION</h3>   
                                 <p>Registration Fee :<span><BiRupee/></span>250 Per Head</p>
                                 <div className='RegisterBtn'>
-                                    <p><a href="">Register Now <FaArrowRightLong/></a></p>
+                                    <p><a href="https://forms.gle/mrUbzaNAQDudphBy5">Register Now <FaArrowRightLong/></a></p>
                                 </div>
                             </div>
                         </div>
